@@ -12,6 +12,8 @@ class ViewControllerTwoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Weather Converter"
 
         // Do any additional setup after loading the view.
     }

@@ -13,6 +13,7 @@
 		7F171FA72028EA58003CEDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F171FA52028EA58003CEDCC /* LaunchScreen.storyboard */; };
 		7F171FAF2028F226003CEDCC /* ViewControllerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F171FAE2028F226003CEDCC /* ViewControllerTwoViewController.swift */; };
 		7F171FB12028F535003CEDCC /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F171FB02028F535003CEDCC /* ViewControllerOne.swift */; };
+		80116FA1205F507A00424C74 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80116FA0205F507A00424C74 /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F171FA82028EA58003CEDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F171FAE2028F226003CEDCC /* ViewControllerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwoViewController.swift; sourceTree = "<group>"; };
 		7F171FB02028F535003CEDCC /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		80116FA0205F507A00424C74 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				7F171F9C2028EA58003CEDCC /* AppDelegate.swift */,
 				7F171FA02028EA58003CEDCC /* Main.storyboard */,
+				80116FA0205F507A00424C74 /* ViewControllerThree.swift */,
 				7F171FAE2028F226003CEDCC /* ViewControllerTwoViewController.swift */,
 				7F171FB02028F535003CEDCC /* ViewControllerOne.swift */,
 				7F171FA32028EA58003CEDCC /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				7F171FB12028F535003CEDCC /* ViewControllerOne.swift in Sources */,
 				7F171FAF2028F226003CEDCC /* ViewControllerTwoViewController.swift in Sources */,
 				7F171F9D2028EA58003CEDCC /* AppDelegate.swift in Sources */,
+				80116FA1205F507A00424C74 /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
