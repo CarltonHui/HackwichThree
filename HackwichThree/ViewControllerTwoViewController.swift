@@ -29,13 +29,13 @@ class ViewControllerTwoViewController: UIViewController {
     }
     
     @IBAction func setLabelButtonPressed(_ sender: Any) {
-        //2. Create a local variable of type String to hold the user input text
+        
         let fahrenheit = Float(textField.text!)
         let celcius = (5/9)*(fahrenheit!-32)
         
-        self.displayTextLabel.text = " \(celcius)"
+        self.displayTextLabel.text = "Today is \(celcius) Degrees Celcius!"
     
-    }//end function setLabelButtonPressed
+}
 }
 
 //var celcius: Float
