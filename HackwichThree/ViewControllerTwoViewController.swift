@@ -9,9 +9,14 @@
 import UIKit
 
 class ViewControllerTwoViewController: UIViewController {
+    
+    @IBOutlet var textField: UITextField!
+    @IBOutlet var displayTextLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.displayTextLabel.text=""
         
         self.title = "Weather Converter"
 
@@ -23,6 +28,20 @@ class ViewControllerTwoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func setLabelButtonPressed(_ sender: Any) {
+        //2. Create a local variable of type String to hold the user input text
+        let fahrenheit = Float(textField.text!)
+        let celcius = (5/9)*(fahrenheit!-32)
+        
+        self.displayTextLabel.text = " \(celcius)"
+    
+    }//end function setLabelButtonPressed
+}
+
+//var celcius: Float
+//var fahrenheit: Float = 50
+//celcius = (5/9)*(fahrenheit-32)
+//print ("Today it is \(celcius) degrees celcius")
 
     /*
     // MARK: - Navigation
@@ -34,4 +53,4 @@ class ViewControllerTwoViewController: UIViewController {
     }
     */
 
-}
+
